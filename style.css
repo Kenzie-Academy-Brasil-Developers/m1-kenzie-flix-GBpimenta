@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-
 body {
     background-color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: white;
 }
 
 header {
     margin: 20px;
-    margin-left: 42%;
+    margin-left: 41%;
 }
 
 h1 {
@@ -21,30 +19,29 @@ h1 {
 .container {
     display: flex;
     justify-content: center;
-    width: 210vh;
     height: 260px;
-    
+    color: gray;
+    list-style: none;
 }
 
 .perfil {
-    margin: 15px;
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 20px;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 
 }
 
 .perfil_novo {
-    margin: 15px;
-    background-color: rgba(128, 128, 128, 0);
-    border: 5px solid white;
-    border-radius: 5px;
+    background-color: rgba(108, 107, 107, 0.25);
+    border-radius: 8px;
     padding: 47px;
+
 }
 
-.nomes {
-    text-align: center;
-
+.cards {
+    border-radius: 8px;
 }
 
 .gerenciar {
@@ -55,19 +52,24 @@ h1 {
     padding: 15px;
 }
 
-form {
+div {
     text-align: center;
 }
 
-.gerenciar:hover{
-    background-color: rgba(97, 97, 97, 0.662);
+.perfil:hover img {
+    border: 1px solid white
 }
 
-.perfil:hover{
+.perfil:hover p {
+    color: white;
+}
+
+.gerenciar:hover {
+    background-color: rgba(255, 255, 255, 0.913);
+    color: black;
+}
+
+.perfil_novo:hover {
     background-color: rgba(128, 128, 128, 0.312);
+    border: 1px solid white
 }
-
-.perfil_novo:hover{
-    background-color: rgba(128, 128, 128, 0.312);
-}
-
