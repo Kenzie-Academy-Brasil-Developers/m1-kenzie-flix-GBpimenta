@@ -1,12 +1,14 @@
 body {
     background-color: black;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family:'Helvetica Neue' ,sans-serif;
+    font-weight: 650;
     color: white;
 }
 
 header {
-    margin: 20px;
-    margin-left: 41%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -22,6 +24,8 @@ h1 {
     height: 260px;
     color: gray;
     list-style: none;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .perfil {
@@ -30,29 +34,31 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 20px;
-
+    width: 150px;
 }
 
 .perfil_novo {
     background-color: rgba(108, 107, 107, 0.25);
     border-radius: 8px;
-    padding: 47px;
-
+    width: 55%;
+    padding: 35px;
 }
 
 .cards {
+    width: 100%;
     border-radius: 8px;
 }
 
 .gerenciar {
     background-color: black;
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 5px;
     padding: 15px;
+    font-weight: 700;
 }
 
-div {
+footer {
     text-align: center;
 }
 
